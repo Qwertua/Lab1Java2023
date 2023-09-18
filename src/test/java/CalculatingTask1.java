@@ -13,8 +13,8 @@ public class CalculatingTask1 {
 
         }
 
-        for (int i = a ; i < n ; i++){
-        for (int j = b; j < m ; j++ ){
+        for (int i = a ; i <= n ; i++){
+        for (int j = b; j <= m ; j++ ){
             if (((i-C) == 0)){
                 throw new IllegalArgumentException();
             }
