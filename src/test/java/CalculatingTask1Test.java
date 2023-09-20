@@ -11,11 +11,7 @@ public class CalculatingTask1Test {
         CalculatingTask1 calculatingTask1 = new CalculatingTask1();
         assertEquals(33, calculatingTask1.calcMethod(3, 4,5,6));
     }
-    @Test
-    public void NotEqualTest(){
-        CalculatingTask1 calculatingTask1 = new CalculatingTask1();
-        assertNotEquals(27, calculatingTask1.calcMethod(3,4,5,6));
-    }
+
     @Test
     public void exceptionTestingCorrectData() {
         CalculatingTask1 calculatingTask1 = new CalculatingTask1();
