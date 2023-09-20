@@ -15,14 +15,12 @@ public class CalculatingTask1Test {
     public void NotEqualTest(){
         CalculatingTask1 calculatingTask1 = new CalculatingTask1();
         assertNotEquals(27, calculatingTask1.calcMethod(3,4,5,6));
-
     }
     @Test
     public void exceptionTestingCorrectData() {
         CalculatingTask1 calculatingTask1 = new CalculatingTask1();
         assertThrows(IllegalArgumentException.class, () ->
-                calculatingTask1.calcMethod(10,4,5,6));
-
+                calculatingTask1.calcMethod(11,4,5,6));
     }
     @Test
     public void exeptionTestingDivideByZero() {
